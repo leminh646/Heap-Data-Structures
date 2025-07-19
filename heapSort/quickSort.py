@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(10000)
+
 def quicksort(A, l=0, r=None):
     if r is None:
         r = len(A) - 1
